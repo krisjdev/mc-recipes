@@ -7,8 +7,8 @@ StartupEvents.registry("block", event => {
     var block_dict = {
         // can't use Text.gold() (or other colours) in tooltip
         antimatter: {tooltip: "\u00A7dBlock of Antimatter"},
-        brine: {tooltip: "\u00A7eBlock of Brine"},
-        chlorine: {tooltip: "\u00A7eBlock of Chlorine"},
+        brine: {tooltip: "Block of Brine"},
+        chlorine: {tooltip: "Block of Chlorine"},
         ethene: {tooltip: "Block of Ethylene"},
         fissile_fuel: {tooltip: "Block of Fissile Fuel"},
         hydrofluoric_acid: {tooltip: "Block of Hydrofluoric Acid"},
@@ -19,7 +19,7 @@ StartupEvents.registry("block", event => {
         osmium: {tooltip: "Block of Osmium"},
         oxygen: {tooltip: "Block of Oxygen"},
         plutonium: {tooltip: "Block of Plutonium"},
-        polonium: {tooltip: "Block of Polonium"},
+        polonium: {tooltip: "\u00A7bBlock of Polonium"},
         sodium: {tooltip: "Block of Sodium"},
         spent_nuclear_waste: {tooltip: "Block of Spent Nuclear Waste"},
         steam: {tooltip: "Block of Steam"},
@@ -31,7 +31,7 @@ StartupEvents.registry("block", event => {
         uranium_oxide: {tooltip: "Block of Uranium Oxide"},
         water_vapour: {tooltip: "Block of Water Vapour"},
         deuterium: {tooltip: "Block of Deuterium"},
-        fusion_fuel: {tooltip: "Block of Fusion Fuel"},
+        fusion_fuel: {tooltip: "\u00A7dBlock of D-T Fuel"},
         tritium: {tooltip: "Block of Tritium"},
         neutron_gas: {tooltip: "Block of Neutron Gas"},    
     }
