@@ -9,7 +9,7 @@ StartupEvents.registry("block", event => {
         antimatter: {tooltip: "\u00A7dBlock of Antimatter"},
         brine: {tooltip: "\u00A7eBlock of Brine"},
         chlorine: {tooltip: "\u00A7eBlock of Chlorine"},
-        ethene: {tooltip: "Block of Ethene"},
+        ethene: {tooltip: "Block of Ethylene"},
         fissile_fuel: {tooltip: "Block of Fissile Fuel"},
         hydrofluoric_acid: {tooltip: "Block of Hydrofluoric Acid"},
         hydrogen: {tooltip: "Block of Hydrogen"},
