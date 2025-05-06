@@ -1,3 +1,6 @@
+// https://kubejs.com/wiki/tutorials/block-registry
+// https://kubejs.com/wiki/ref/BlockBuilder
+
 StartupEvents.registry("block", event => {
     
     event.create("block_of_antimatter")
