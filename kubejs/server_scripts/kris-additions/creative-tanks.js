@@ -17,6 +17,24 @@ ServerEvents.recipes(event => {
         }
     ).id("krisadditions:mekanism/creative_chemical_tank")
 
+    // block of antimatter
+    event.custom({
+        type: "mekanism:nucleosynthesizing",
+        duration: 4000,
+        gasInput: {
+            amount: 1000,
+            gas: "mekanism:antimatter"
+        },
+        itemInput: {
+            ingredient: {
+                item: "allthecompressed:cobblestone_9x"
+            }
+        },
+        output: {
+            item: "kubejs:block_of_antimatter"
+        }
+    })
+
     // creative antimatter chemical tank
     event.custom({
         type: "powah:energizing",
@@ -35,6 +53,7 @@ ServerEvents.recipes(event => {
             Ingredient.of("allthetweaks:atm_star"),
             Ingredient.of("mekanism:creative_chemical_tank",),
             Ingredient.of("mekanism:creative_chemical_tank",),
+            Ingredient.of("kubejs:block_of_antimatter",),
         ],
         energy: "2147483647",
         // 9223372036854775807 is the wanted value for the amount stored, but that gets translated into a string that breaks the infinite functionality of the tank
