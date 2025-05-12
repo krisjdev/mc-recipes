@@ -55,4 +55,11 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shapeless(
+        Item.of("minecraft:obsidian", 64),
+        [
+            "twilightforest:giant_obsidian"
+        ]
+    )
+
 })
