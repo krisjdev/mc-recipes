@@ -81,4 +81,17 @@ ServerEvents.recipes(event => {
         ]
     })
 
+    event.shaped(
+        Item.of("biomesoplenty:black_sand", 4),
+        [
+            " S ",
+            "SDS",
+            " S "
+        ],
+        {
+            S: "minecraft:sand",
+            D: "minecraft:black_dye"
+        }
+    )
+
 })
