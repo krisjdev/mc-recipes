@@ -1,0 +1,15 @@
+// compiled by gen.py on Mon 05/12/25 22:40
+ServerEvents.recipes(event => {
+	var source = "minecraft:glass"
+	var block_ids = [
+		"chipped:circle_oak_glass", "chipped:fancy_leaded_glass", "chipped:large_diamond_leaded_glass", "chipped:lead_woven_glass",
+		"chipped:oak_snowflake_glass", "chipped:square_leaded_glass", "chipped:vertical_leaded_glass", "chipped:arched_leaded_glass_pillar",
+		"chipped:clear_leaded_glass", "chipped:oak_bared_glass", "chipped:oak_bordered_glass", "chipped:oak_diamond_bordered_glass",
+		"chipped:oak_horizontal_lined_glass", "chipped:oak_large_diamond_glass", "chipped:oak_line_bared_glass", "chipped:oak_ornate_bared_glass",
+		"chipped:oak_woven_glass", "chipped:ornate_leaded_glass", "chipped:raster_leaded_glass", "chipped:small_diamond_leaded_glass",
+		"chipped:square_oak_glass", 
+	]
+	block_ids.forEach(block => {
+		event.stonecutting(block, source)
+	})
+})

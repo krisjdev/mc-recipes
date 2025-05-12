@@ -1,19 +1,12 @@
+// compiled by gen.py on Mon 05/12/25 22:40
 ServerEvents.recipes(event => {
-
-    var source = "minecraft:acacia_log"
-
-    var block_ids = [
-        "bundled_acacia_log", "carved_stripped_acacia_log", "center_cut_acacia_log", "chipped_stripped_acacia_log",
-        "d_sign_stripped_acacia_log", "damaged_acacia_log", "edge_cut_acacia_log", "edged_stripped_acacia_log",
-        "f_sign_stripped_acacia_log", "firewood_acacia_log", "flowering_acacia_log", "i_sign_stripped_acacia_log",
-        "k_sign_stripped_acacia_log", "knotted_stripped_acacia_log", "l_sign_stripped_acacia_log", "layered_stripped_acacia_log",
-        "lumpy_stripped_acacia_log", "m_sign_stripped_acacia_log", "mixed_acacia_log", "nailed_acacia_log",
-        "overgrown_acacia_log", "patient_stripped_acacia_log", "planked_acacia_log", "reinforced_acacia_log",
-        "reinforced_stripped_acacia_log", "sign_stripped_acacia_log", "stern_stripped_acacia_log", "wise_stripped_acacia_log"
-    ]
-
-    block_ids.forEach(block => {
-        event.stonecutting("chipped:" + block, source)
-    })
-
+	var source = "minecraft:acacia_log"
+	var block_ids = [
+		"chipped:bundled_acacia_log", "chipped:center_cut_acacia_log", "chipped:damaged_acacia_log", "chipped:edge_cut_acacia_log",
+		"chipped:firewood_acacia_log", "chipped:flowering_acacia_log", "chipped:mixed_acacia_log", "chipped:nailed_acacia_log",
+		"chipped:overgrown_acacia_log", "chipped:planked_acacia_log", "chipped:reinforced_acacia_log", 
+	]
+	block_ids.forEach(block => {
+		event.stonecutting(block, source)
+	})
 })
