@@ -1,0 +1,45 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_brick_pattern_connecting",
+      "item": "rechiseled:glowstone_brick_pattern"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_brick_paving_connecting",
+      "item": "rechiseled:glowstone_brick_paving"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_bricks_connecting",
+      "item": "rechiseled:glowstone_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_crushed_connecting",
+      "item": "rechiseled:glowstone_crushed"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_large_tiles_connecting",
+      "item": "rechiseled:glowstone_large_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_rotated_bricks_connecting",
+      "item": "rechiseled:glowstone_rotated_bricks"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_small_tiles_connecting",
+      "item": "rechiseled:glowstone_small_tiles"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_smooth_connecting",
+      "item": "rechiseled:glowstone_smooth"
+    },
+    {
+      "connecting_item": "rechiseled:glowstone_tiles_connecting",
+      "item": "rechiseled:glowstone_tiles"
+    }
+  ],
+  "overwrite": false
+}
