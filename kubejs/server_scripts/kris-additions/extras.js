@@ -94,4 +94,26 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of("cataclysm:enderite_block", 1),
+        [
+            "OOO",
+            "EVE",
+            "OOO"
+        ],
+        {
+            O: "minecraft:obsidian",
+            E: "minecraft:ender_eye",
+            V: "cataclysm:void_core"
+        }
+    )
+
+    event.shapeless(
+        Item.of("cataclysm:void_infused_end_stone_bricks", 1),
+        [
+            "minecraft:end_stone_bricks",
+            "cataclysm:void_jaw"
+        ]
+    )
+
 })
