@@ -116,4 +116,12 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shapeless(
+        Item.of("naturalist:glow_goop", 1),
+        [
+            "mysticalagriculture:nature_essence",
+            "mysticalagriculture:glowstone_essence"
+        ]
+    )
+
 })
