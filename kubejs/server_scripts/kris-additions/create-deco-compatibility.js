@@ -65,4 +65,6 @@ ServerEvents.recipes(event => {
 
     replace_input("create:copper_sheet", "alltheores:copper_plate")
     replace_input("create:copper_nugget", "alltheores:copper_nugget")
+
+    replace_input("create:iron_sheet", "alltheores:iron_plate")
 })
