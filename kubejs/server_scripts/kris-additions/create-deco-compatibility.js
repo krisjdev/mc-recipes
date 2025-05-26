@@ -62,4 +62,7 @@ ServerEvents.recipes(event => {
     replace_input("create:brass_ingot", "alltheores:brass_ingot")
     replace_input("create:brass_block", "alltheores:brass_block")
     replace_input("create:brass_nugget", "alltheores:brass_nugget")
+
+    replace_input("create:copper_sheet", "alltheores:copper_plate")
+    replace_input("create:copper_nugget", "alltheores:copper_nugget")
 })
