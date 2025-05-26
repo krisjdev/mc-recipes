@@ -19,6 +19,10 @@ ServerEvents.recipes(event => {
 		"chipped:thick_inlayed_borderless_bricks", "chipped:tiled_borderless_bricks_column", "chipped:tiled_bordered_borderless_bricks", "chipped:tiny_brick_bordered_borderless_bricks",
 		"chipped:curly_borderless_bricks_pillar", "chipped:fine_borderless_bricks_pillar", "chipped:ornate_borderless_bricks_pillar", "chipped:simple_borderless_bricks_pillar",
 		"chipped:massive_borderless_bricks_bricks", 
+
+		"chipped:bricks_bricks", "chipped:cracked_bricks_bricks", "chipped:cracked_disordered_bricks_bricks", "chipped:etched_bricks_bricks", "chipped:offset_bricks_bricks",
+		"chipped:pillar_bricks_bricks", "chipped:rounded_bricks_bricks", "chipped:small_bricks_bricks", "chipped:stacked_bricks_bricks", "chipped:tiny_bricks_bricks",
+		"chipped:tiny_layered_bricks_bricks", "chipped:vertical_disordered_bricks_bricks", "chipped:edged_bricks_bricks", "chipped:massive_bricks_bricks",
 	]
 	block_ids.forEach(block => {
 		event.stonecutting(block, source)
