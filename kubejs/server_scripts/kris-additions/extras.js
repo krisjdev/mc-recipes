@@ -124,4 +124,16 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    event.shaped(
+        Item.of("ad_astra:ice_shard", 1),
+        [
+            "  I",
+            " I ",
+            "I  "
+        ],
+        {
+            I: "mysticalagriculture:ice_essence"
+        }
+    )
+
 })
